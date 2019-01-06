@@ -25,7 +25,7 @@ p {
   margin-bottom: 32px;
 }
 
-/*#url,
+#url,
 #width,
 #height {
   border: none;
@@ -42,7 +42,7 @@ p {
   transition: all .25s ease;
 }
 
-#url:focus,
+/*#url:focus,
 #width:focus,
 #height:focus {
   border-bottom-color: #24b47e;
