@@ -48,13 +48,13 @@ p {
   border-bottom-color: #24b47e;
 }
 
-/*#url {
+#url {
   display: block;
   width: 100%;
   margin-bottom: 16px;
 }
 
-.res {
+/*.res {
   display: flex;
   justify-content: space-between;
   align-items: center;
