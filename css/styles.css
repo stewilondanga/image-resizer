@@ -70,13 +70,13 @@ img {
   height: auto;
 }
 
-/*a {
+a {
   display: block;
   margin: 32px 0;
   color: #24b47e;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
