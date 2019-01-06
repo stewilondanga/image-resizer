@@ -9,13 +9,13 @@ input {
   line-height: 1.5;
 }
 
-/*.wrapper {
+.wrapper {
   width: 90%;
   max-width: 600px;
   margin: 32px auto;
 }
 
-h1 {
+/*h1 {
   color: #6772e5;
   font-weight: 900;
 }
