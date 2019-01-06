@@ -2,14 +2,14 @@ body {
   background-color: #f6f9fc;
 }
 
-/*body,
+body,
 input {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.5;
 }
 
-.wrapper {
+/*.wrapper {
   width: 90%;
   max-width: 600px;
   margin: 32px auto;
