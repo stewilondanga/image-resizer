@@ -15,12 +15,12 @@ url.addEventListener('input', calculate)
 width.addEventListener('input', calculate)
 height.addEventListener('input', calculate)
 
-/*function calculate(e) {
-	const id = url.value.split('/').pop()
-	const src = `https://source.unsplash.com/${id}/${width.value}x${height.value}`
-	document.querySelector('a').textContent = src
-	document.querySelector('a').setAttribute('href', src)
-	document.querySelector('img').setAttribute('src', src)
+function calculate(e) {
+  const id = url.value.split('/').pop()
+  const src = `https://source.unsplash.com/${id}/${width.value}x${height.value}`
+  document.querySelector('a').textContent = src
+  document.querySelector('a').setAttribute('href', src)
+  document.querySelector('img').setAttribute('src', src)
 }
 
 calculate();
