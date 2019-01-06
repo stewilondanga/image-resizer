@@ -7,11 +7,11 @@ var navigate = (function() {
   });
 })();
 
-/*const url = document.getElementById('url')
+const url = document.getElementById('url')
 const width = document.getElementById('width')
 const height = document.getElementById('height')
 
-url.addEventListener('input', calculate)
+/*url.addEventListener('input', calculate)
 width.addEventListener('input', calculate)
 height.addEventListener('input', calculate)
 
