@@ -42,13 +42,13 @@ p {
   transition: all .25s ease;
 }
 
-/*#url:focus,
+#url:focus,
 #width:focus,
 #height:focus {
   border-bottom-color: #24b47e;
 }
 
-#url {
+/*#url {
   display: block;
   width: 100%;
   margin-bottom: 16px;
