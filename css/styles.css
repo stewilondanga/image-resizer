@@ -1,11 +1,11 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
+}*/
+/*
 .my_social {
   position: absolute;
   top: 25px;
@@ -19,6 +19,82 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+*/
+body {
+  background-color: #f6f9fc;
+}
+
+body,
+input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 600px;
+  margin: 32px auto;
+}
+
+h1 {
+  color: #6772e5;
+  font-weight: 900;
+}
+
+p {
+  color: #1f4284;
+  margin-bottom: 32px;
+}
+
+#url,
+#width,
+#height {
+  border: none;
+  padding: 24px;
+  color: #666;
+  font-weight: 300;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+  flex: 1 1;
+  border: 3px solid #fff;
+  outline: none;
+  border-radius: 3px;
+  transition: all .25s ease;
+}
+#url:focus,
+#width:focus,
+#height:focus {
+  border-bottom-color: #24b47e;
+}
+
+#url {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.res {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.res span {
+  margin: 0 16px;
+}
+
+ img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ a {
+  display: block;
+  margin: 32px 0;
+  color: #24b47e;
 }
 
 .containers {
