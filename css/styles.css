@@ -1,27 +1,4 @@
 /*body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}*/
-/*
-.my_social {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-
-.my_social a {
-  display: inline-block;
-  height: 2.5em;
-}
-
-.my_social a img {
-  height: 1.5em;
-}
-*/
-body {
   background-color: #f6f9fc;
 }
 
@@ -64,6 +41,7 @@ p {
   border-radius: 3px;
   transition: all .25s ease;
 }
+
 #url:focus,
 #width:focus,
 #height:focus {
@@ -81,17 +59,18 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
 .res span {
   margin: 0 16px;
 }
 
- img {
+img {
   display: block;
   width: 100%;
   height: auto;
 }
 
- a {
+a {
   display: block;
   margin: 32px 0;
   color: #24b47e;
