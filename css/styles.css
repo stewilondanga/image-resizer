@@ -60,11 +60,11 @@ p {
   align-items: center;
 }
 
-/*.res span {
+.res span {
   margin: 0 16px;
 }
 
-img {
+/*img {
   display: block;
   width: 100%;
   height: auto;
